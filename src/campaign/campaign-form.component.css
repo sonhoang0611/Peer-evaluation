@@ -1,0 +1,26 @@
+form table:not(.datepicker) td {
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+}
+
+form table:not(.datepicker) td:hover {
+    transform: scale(1.5, 1.5);
+}
+
+form label {
+    color: #78909C;
+}
+
+form input[type="radio"] + label {
+    color: #7387A9;
+    font-weight: normal;
+    font-size: 1.3em;
+    margin-bottom: 90px;
+}
+
+.ss-campaign-info h2 {
+    margin: 50px 0px 70px 0px;
+    text-align: center;
+    font-weight: bolder;
+}
+

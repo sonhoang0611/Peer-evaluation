@@ -1,0 +1,26 @@
+<section class="ss-campaign">
+    <div class="ss-section-header center">
+        <h3>Completed Campaign</h3>
+    </div>
+    <table class="ss-list-table ss-shadow-md">
+        <thead class="thead-default">
+            <tr>
+                <th>Id</th>
+                <th>Campaign</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let campaign of campaigns'>
+                <th scope="row">{{campaign.id}}</th>
+                <td>
+                    <h5>{{campaign.name}}</h5>
+                    <h6>Completed {{campaign.dateCreated}}</h6>
+                </td>
+                <td><div class="ss-status ss-completed-cp">{{campaign.status}}</div></td>
+                <td><a [routerLink]="['/completion/feedback']"><button type="button" class="btn btn-default">View</button></a></td>
+            </tr>
+        </tbody>
+    </table>
+</section>

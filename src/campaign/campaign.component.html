@@ -1,0 +1,61 @@
+<section class="ss-campaign">
+    <div class="ss-create-new">
+        <div class="ss-section-header">
+        <h3>New Campaign</h3>
+        </div>
+        <button type="button" class="btn btn-default">Create</button>
+    </div>
+    <table class="ss-list-table">
+        <thead class="thead-default">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Response</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Holistics-11</th>
+                <td><h5>Campaign 11</h5></td>
+                <td><div class="ss-status ss-open-cp">Openning</div></td>
+                <td>0/10</td>
+                <td>
+                    <a [routerLink]="['/campaign/form']"><button type="button" class="btn btn-default grey lighten-4 black-text">Start</button></a>
+                    <button type="button" class="btn grey lighten-4 black-text">Edit</button>
+                    <button type="button" class="btn grey lighten-4 black-text">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section class="ss-campaign">
+    <div class="ss-section-header">
+        <h3>Completed Campaign</h3>
+    </div>
+    <table class="ss-list-table ss-shadow-md">
+        <thead class="thead-default">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Response</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let campaign of campaigns'>
+                <th scope="row">{{campaign.id}}</th>
+                <td>
+                    <h5>{{campaign.name}}</h5>
+                    <h6>Created {{campaign.dateCreated}}</h6>
+                </td>
+                <td><div class="ss-status ss-completed-cp">{{campaign.status}}</div></td>
+                <td>{{campaign.response}}/{{campaign.totalStudent}}</td>
+                <td><button type="button" class="btn btn-default grey lighten-4 black-text">Detail</button></td>
+            </tr>
+        </tbody>
+    </table>
+</section>

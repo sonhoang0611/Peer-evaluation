@@ -1,0 +1,14 @@
+section label {
+
+    color: #78909C;
+        font-weight: normal;
+    font-size: 1.2em;
+}
+
+.ss-clear-margin {
+    margin: 0 auto;
+    padding: 15px 75px;
+    background: #6AD969;
+    background: #26A69A;;
+    color: white;
+}

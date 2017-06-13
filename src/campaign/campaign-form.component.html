@@ -1,0 +1,87 @@
+<section class="ss-disabled">
+    <div class="ss-campaign-info">
+        <h2>Campaign Information</h2>
+        <form class="ss-frame ss-frame-60 ss-shadow-md">
+            <div class="row">
+                <div class="col m12 ss-feedback-title">
+                    <p>I. Campaign Info</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m6">
+                    <label>Id</label>
+                    <input type="text" value="HOLISTICS-11" disabled>
+                </div>
+                <div class=" col m6">
+                    <label>Name</label>
+                    <input type="text" value="Campaign 11" disabled>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col m6">
+                    <label>Openning Date</label>
+                    <input type='date' class="datepicker" />
+                </div>
+                <div class=" col m6">
+                    <label>Closing Date</label>
+                    <input type='date' class="datepicker" />
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col m12">
+                    <label>Description</label>
+                    <textarea class="materialize-textarea" placeholder="Please type here...">This is an obligatory activity of all student in the class. If you don't join in, you will be fail this subject</textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m12 ss-feedback-title">
+                    <p>II. Recipients</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col m4">
+                    <input type="radio" name="recipients" id="instructor">
+                    <label for="instructor">Instructor</label>
+                </div>
+                <div class=" col m4">
+                    <input type="radio" name="recipients" id="teammates">
+                    <label for="teammates">Group</label>
+                </div>
+                <div class=" col m4">
+                    <input type="radio" name="recipients" id="others">
+                    <label for="others">Others</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m12 ss-feedback-title">
+                    <p>III. Question</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col m12">
+                    <label>Question 1</label>
+                    <input type="text" class="ss-question" placeholder="Please type here..." value="Contribution level of team member (in percent)?">
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col m12">
+                    <label>Question 2</label>
+                    <input type="text" class="ss-question" placeholder="Please type here..." value="What are your teammate's strengths?">
+                </div>
+            </div>
+            <div class="row">
+                <div class=" col m12">
+                    <label>Question 3</label>
+                    <input type="text" class="ss-question" placeholder="Please type here..." value="What do your teammate need to improve?">
+                </div>
+            </div>
+
+            <a><button type="submit" class="btn grey lighten-4 black-text left">Add question</button></a>
+            <a><button type="submit" class="btn grey lighten-4 black-text left">Remove question</button></a>
+            <a [routerLink]="['/campaign']"><button type="submit" class="btn grey lighten-4 black-text pull-right right">Back</button></a>
+            <a [routerLink]="['/campaign/enrollment']" type="submit" class="btn waves-effect waves-light right">Next step<i class="material-icons right">&#xE409;</i></a>
+
+            <div class="clearfix"></div>
+        </form>
+    </div>
+</section>

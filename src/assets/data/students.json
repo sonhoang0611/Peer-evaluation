@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "name": "Student 1",
+        "code": "1312001",
+        "email": "khtn1@gmail.com",
+        "group": 1,
+        "avatar": "assets/images/female.png",
+        "account": "@kha01"
+    },
+    {
+        "id": "2",
+        "name": "Student 2",
+        "code": "1312002",
+        "email": "khtn2@gmail.com",
+        "group": 1,
+        "avatar": "assets/images/male.png",
+        "account": "@kha02"
+    },
+    {
+        "id": "3",
+        "name": "Student 3",
+        "code": "1312003",
+        "email": "khtn3@gmail.com",
+        "group": 1,
+        "avatar": "assets/images/female1.png",
+        "account": "@kha03"
+    },
+    {
+        "id": "4",
+        "name": "Student 4",
+        "code": "1312004",
+        "email": "khtn4@gmail.com",
+        "group": 2,
+        "avatar": "assets/images/male1.png",
+        "account": "@kha04"
+    },
+    {
+        "id": "5",
+        "name": "Student 5",
+        "code": "1312005",
+        "email": "khtn5@gmail.com",
+        "group": 2,
+        "avatar": "assets/images/male2.png",
+        "account": "@kha05"
+    },
+    {
+        "id": "6",
+        "name": "Student 6",
+        "code": "1312006",
+        "email": "khtn6@gmail.com",
+        "group": 2,
+        "avatar": "assets/images/female.png",
+        "account": "@kha06"
+    },
+    {
+        "id": "7",
+        "name": "Student 7",
+        "code": "1312007",
+        "email": "khtn7@gmail.com",
+        "group": 3,
+        "avatar": "assets/images/male.png",
+        "account": "@kha07"
+    },
+    {
+        "id": "8",
+        "name": "Student 8",
+        "code": "1312001",
+        "email": "khtn1@gmail.com",
+        "group": 3,
+        "avatar": "assets/images/female1.png",
+        "account": "@kha08"
+    },
+    {
+        "id": "9",
+        "name": "Student 9",
+        "code": "1312009",
+        "email": "khtn9@gmail.com",
+        "group": 3,
+        "avatar": "assets/images/male1.png",
+        "account": "@kha09"
+    },
+    {
+        "id": "10",
+        "name": "Student 10",
+        "code": "1312010",
+        "email": "khtn10@gmail.com",
+        "group": 3,
+        "avatar": "assets/images/male2.png",
+        "account": "@kha10"
+    }
+]

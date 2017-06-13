@@ -1,0 +1,55 @@
+<section class="ss-disabled">
+    <div class="ss-section-header center">
+        <h3>Submission</h3>
+    </div>
+    <form class="ss-frame ss-frame-60 ss-shadow-md">
+        <div class="row">
+            <div class=" col m12 ss-feedback-title">
+                <p>I. Campaign Info</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col m12">
+                <label>Name</label>
+                <input type="text" value="Campaign 11" disabled>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m6">
+                <label>Recipient</label>
+                <input type="text" value="Kha Thanh" disabled>
+            </div>
+            <div class="col m6">
+                <label>Deadline</label>
+                <input type="text" value="12 June, 2017" disabled>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m12 ss-feedback-title">
+                <p>II. Answer</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col m12">
+                <label>Contribution level of team member (in percent)?</label>
+                <input type="text" placeholder="Your answer">
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col m12">
+                <label>What are your teammate's strength?</label>
+                <input type="text" placeholder="Your answer">
+            </div>
+        </div>
+        <div class="row">
+            <div class=" col m12">
+                <label>What do your teammate need to improve?</label>
+                <input type="text" placeholder="Your answer">
+
+            </div>
+        </div>
+        <a [routerLink]="['/student-view']"><button type="submit" class="btn grey lighten-4 black-text pull-right right">Back</button></a>
+        <a [routerLink]="['/student-view']"><button type="submit" class="btn btn-fill pull-right right">Submit</button></a>
+    </form>
+
+</section>

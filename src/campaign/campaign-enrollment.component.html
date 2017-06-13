@@ -1,0 +1,53 @@
+<section class="ss-campaign">
+    <h2>Add Student</h2>
+    <br>
+    <div class="radio-inline">
+        <input type="radio" name="selectStudent" id="selectAll">
+        <label for="selectAll">Select all</label>
+    </div>
+    <div class="radio-inline">
+        <input type="radio" name="selectStudent" id="clearAll">
+        <label for="clearAll">Clear all</label>
+    </div>
+    <table class="ss-list-table">
+        <thead class="thead-default">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Student Code</th>
+                <th>Email</th>
+                <th>Group</th>
+                <th>Account</th>
+                <th>Check</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let student of students">
+                <th scope="row">{{student.id}}</th>
+                <td><img class="ss-avatar" [src]="student.avatar"> {{student.name}}
+                </td>
+                <td>{{student.code}}</td>
+                <td>{{student.email}}</td>
+                <td>{{student.group}}</td>
+                <td>{{student.account}}</td>
+                <td>
+                    <input type="checkbox" class="filled-in" id="{{student.id}}">
+                    <label for="{{student.id}}"></label>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="btn-fl">
+    <a [routerLink]="['/campaign/form']" ><button type="submit" class="btn grey lighten-4 black-text pull-right right">Back</button></a>
+    <a><button type="button" class="btn btn-default right" data-target="modal1">Launch</button></a>
+    </div>
+    <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Finished!</h4>
+      <p>A campaign has been launched.</p>
+    </div>
+    <div class="modal-footer">
+      <a class="modal-action modal-close waves-effect waves-green btn-flat">OK</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,59 @@
+[
+    {
+        "id": "Holistics-01",
+        "name": "Campaign 01",
+        "status": "Completed",
+        "response": "10",
+        "totalStudent": "10",
+        "dateCreated": "July 23, 2017"
+    },  {
+        "id": "Holistics-02",
+        "name": "Campaign 02",
+        "status": "Completed",
+        "response": "10",
+        "totalStudent": "10",
+        "dateCreated": "July 23, 2017"
+    },    {
+        "id": "Holistics-03",
+        "name": "Campaign 03",
+        "status": "Completed",
+        "response": "10",
+        "totalStudent": "10",
+        "dateCreated": "July 23, 2017"
+    },    {
+        "id": "Holistics-04",
+        "name": "Campaign 04",
+        "status": "Completed",
+        "response": "10",
+        "totalStudent": "10",
+        "dateCreated": "July 23, 2017"
+    },    {
+        "id": "Holistics-05",
+        "name": "Campaign 05",
+        "status": "Completed",
+        "response": "10",
+        "totalStudent": "10",
+        "dateCreated": "July 23, 2017"
+    },    {
+        "id": "Holistics-06",
+        "name": "Campaign 06",
+        "status": "Completed",
+        "response": "10",
+        "totalStudent": "10",
+        "dateCreated": "July 23, 2017"
+    },    {
+        "id": "Holistics-07",
+        "name": "Campaign 07",
+        "status": "Completed",
+        "response": "10",
+        "totalStudent": "10",
+        "dateCreated": "July 23, 2017"
+    },    {
+        "id": "Holistics-08",
+        "name": "Campaign 08",
+        "status": "Completed",
+        "response": "10",
+        "totalStudent": "10",
+        "dateCreated": "July 23, 2017"
+    }
+]

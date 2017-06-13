@@ -1,0 +1,18 @@
+.ss-list-table tbody td:nth-child(4) {
+    color: #03A9F4;
+}
+
+.ss-list {
+    position: relative;
+}
+
+.ss-student-add {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.modal-body input {
+    margin-bottom: 20px;
+}
+

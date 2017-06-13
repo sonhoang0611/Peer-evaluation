@@ -1,0 +1,29 @@
+<section class="ss-list">
+  <h2>List of Students</h2>
+  <p>Showing 10 out of 10 contacts</p>
+  <div class="ss-student-add">
+    <button type="button" class="btn btn-default">Add</button>
+  </div>
+  <table class="ss-list-table ss-shadow-md">
+    <thead class="thead-default">
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Student Code</th>
+        <th>Email</th>
+        <th>Account</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let student of students">
+        <th scope="row">{{student.id}}</th>
+        <td><img class="ss-avatar" [src]="student.avatar">
+          {{student.name}}
+          </td>
+        <td>{{student.code}}</td>
+        <td>{{student.email}}</td>
+        <td>{{student.account}}</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
